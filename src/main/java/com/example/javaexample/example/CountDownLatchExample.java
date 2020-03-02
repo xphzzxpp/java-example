@@ -8,7 +8,7 @@ import java.util.concurrent.Executors;
  * @author: meng_wei[meng_wei@suixingpay.com]
  * @date: 2020/3/2 16:26
  * @version: V1.0
- * @desc
+ * @desc 闭锁
  */
 public class CountDownLatchExample {
 
