@@ -1,4 +1,4 @@
-package com.example.javaexample.tmp;
+package com.example.javaexample.example;
 
 import java.util.HashSet;
 import java.util.Set;
