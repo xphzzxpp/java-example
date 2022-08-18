@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * @author: meng_wei[meng_wei@suixingpay.com]
+ * @author: meng_wei[ ]
  * @date: 2020/3/3 17:42
  * @version: V1.0
  * @desc threadLocalExample

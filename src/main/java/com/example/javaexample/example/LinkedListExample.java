@@ -3,7 +3,7 @@ package com.example.javaexample.example;
 import java.util.LinkedList;
 
 /**
- * @author: meng_wei[meng_wei@suixingpay.com]
+ * @author: meng_wei[ ]
  * @date: 2020/3/4 16:35
  * @version: V1.0
  * @desc

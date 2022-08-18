@@ -6,7 +6,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 /**
- * @author: meng_wei[meng_wei@suixingpay.com]
+ * @author: meng_wei[]
  * @date: 2020/3/2 17:23
  * @version: V1.0
  * @desc 循环屏障

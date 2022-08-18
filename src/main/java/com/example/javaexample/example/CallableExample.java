@@ -5,7 +5,7 @@ import java.util.concurrent.ExecutionException;
 import java.util.concurrent.FutureTask;
 
 /**
- * @author: meng_wei[meng_wei@suixingpay.com]
+ * @author: meng_wei[ ]
  * @date: 2020/3/1 17:34
  * @version: V1.0
  * @desc
