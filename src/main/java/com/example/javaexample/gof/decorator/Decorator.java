@@ -1,5 +1,6 @@
 package com.example.javaexample.gof.decorator;
 
+
 public class Decorator implements Sourceable{
 
 	private Sourceable sourceable;

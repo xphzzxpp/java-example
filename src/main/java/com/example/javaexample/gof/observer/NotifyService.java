@@ -22,10 +22,4 @@ public class NotifyService {
             o.handler(msg);
         }
     }
-
-    public static void main(String[] args) {
-        NotifyService notifyService = new NotifyService(Arrays.asList(new ObserverAImpl(),
-                new ObserverBImpl()));
-        notifyService.notifyService("通知啦");
-    }
 }

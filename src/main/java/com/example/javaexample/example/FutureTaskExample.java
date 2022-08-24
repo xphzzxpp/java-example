@@ -1,9 +1,10 @@
 package com.example.javaexample.example;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.PrimitiveIterator;
 import java.util.Random;
-import java.util.concurrent.Callable;
-import java.util.concurrent.ExecutionException;
-import java.util.concurrent.FutureTask;
+import java.util.concurrent.*;
 
 /**
  * @author: meng_wei[ ]
@@ -19,10 +20,24 @@ public class FutureTaskExample implements Callable<Integer> {
   }
 
   public static void main(String[] args) throws ExecutionException, InterruptedException {
-    FutureTask<Integer> futureTask = new FutureTask<>(new FutureTaskExample());
-    Thread thread = new Thread(futureTask);
-    thread.start();
-    Integer res = futureTask.get();
-    System.out.println("res:"+res);
+    ExecutorService executorService = Executors.newFixedThreadPool(10);
+    List<FutureTask> list = new ArrayList<>();
+    for (int i = 0; i < 10; i++) {
+      FutureTask<Integer> futureTask = new FutureTask<>(new FutureTaskExample());
+      list.add(futureTask);
+      executorService.submit(futureTask);
+    }
+    System.out.println("=================");
+    list.forEach(o -> {
+      try {
+        System.out.println(o.get(10,TimeUnit.SECONDS));
+      } catch (InterruptedException e) {
+        e.printStackTrace();
+      } catch (ExecutionException e) {
+        e.printStackTrace();
+      } catch (TimeoutException e) {
+        e.printStackTrace();
+      }
+    });
   }
 }
