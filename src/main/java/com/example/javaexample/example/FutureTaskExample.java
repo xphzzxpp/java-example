@@ -7,7 +7,7 @@ import java.util.Random;
 import java.util.concurrent.*;
 
 /**
- * @author: meng_wei[ ]
+ * @author:  [ ]
  * @date: 2020/3/2 18:40
  * @version: V1.0
  * @desc

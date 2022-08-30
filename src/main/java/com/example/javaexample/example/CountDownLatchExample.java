@@ -5,7 +5,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 /**
- * @author: meng_wei[ ]
+ * @author:  [ ]
  * @date: 2020/3/2 16:26
  * @version: V1.0
  * @desc 闭锁
