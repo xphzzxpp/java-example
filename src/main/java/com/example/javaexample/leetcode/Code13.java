@@ -1,19 +1,20 @@
 package com.example.javaexample.leetcode;
 
 /**
+ * https://leetcode.cn/problems/roman-to-integer/
  * @author mw
  * @date 2022/8/30
  */
-public class Test2 {
+public class Code13 {
     public static void main(String[] args) {
-        SolutionA solutionA = new SolutionA();
-        int toInt = solutionA.romanToInt("IV");
+        Solution13 solution13 = new Solution13();
+        int toInt = solution13.romanToInt("IV");
         System.out.println(toInt);
     }
 
 }
 
-class SolutionA {
+class Solution13 {
 
     public int romanToInt(String s) {
         int sum = 0;

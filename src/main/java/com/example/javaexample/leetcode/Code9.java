@@ -4,7 +4,7 @@ package com.example.javaexample.leetcode;
  * @author mw
  * @date 2022/8/30
  */
-public class Test {
+public class Code9 {
     public static void main(String[] args) {
         /**
          * 判断回文数
@@ -14,12 +14,12 @@ public class Test {
          * 12%10 2
          * 1%10  1  12*10=120+1=121
          */
-        boolean palindrome = new Solution().isPalindrome(121);
+        boolean palindrome = new Solution9().isPalindrome(121);
         System.out.println(palindrome);
     }
 }
 
-class Solution {
+class Solution9 {
     public boolean isPalindrome(int x) {
         if (x < 0) {
             return false;

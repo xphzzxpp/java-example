@@ -1,11 +1,11 @@
-package com.example.javaexample.test;
+package com.example.javaexample.leetcode;
 
 /**
  * 字符串转数字
  * @author mw
  * @date 2022/9/8
  */
-public class test {
+public class StrToNum {
     public static void main(String[] args) {
         String str = "123657647";
         char[] charArray = str.toCharArray();

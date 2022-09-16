@@ -1,4 +1,4 @@
-package com.example.javaexample.leetcode;
+package com.example.javaexample.test;
 
 import lombok.SneakyThrows;
 
