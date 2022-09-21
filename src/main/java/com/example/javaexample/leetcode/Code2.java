@@ -7,18 +7,17 @@ package com.example.javaexample.leetcode;
 public class Code2 {
     public static void main(String[] args) {
         Solution2 solution2 = new Solution2();
-        ListNode2 l1 = new ListNode2();
-        l1.val = 2;
-        l1.next = new ListNode2(4);
-        l1 = l1.next;
-        l1.next = new ListNode2(3);
 
-        ListNode2 l2 = new ListNode2();
-        l2.val = 5;
-        l2.next = new ListNode2(6);
-        l2 = l2.next;
-        l2.next = new ListNode2(4);
-        ListNode2 listNode2 = solution2.addTwoNumbers(l1, l2);
+        ListNode2 l1 = new ListNode2(2);
+        l1.next = new ListNode2(4);
+        ListNode2 l2 = l1.next;
+        l2.next = new ListNode2(3);
+
+        ListNode2 l3 = new ListNode2(5);
+        l3.next = new ListNode2(6);
+        ListNode2 l4 = l3.next;
+        l4.next = new ListNode2(4);
+        ListNode2 listNode2 = solution2.addTwoNumbers(l1, l3);
         System.out.println(listNode2);
     }
 }
